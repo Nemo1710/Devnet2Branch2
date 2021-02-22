@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <Capitulo1>GNU LINUX y Python</Capitulo1>
+   <Inicio_de_curso>2021-02-06T00:00:00.000Z</Inicio_de_curso>
+   <Tema_de_linux>
+      <tema1>gnu linux</tema1>
+      <tema2>breve historia de linux</tema2>
+      <tema3>instalacion de maquina virtual</tema3>
+   </Tema_de_linux>
+   <Temas_de_python>
+      <tema4>instalacion de enviroment y jupyter</tema4>
+      <tema5>comandos basicos de python</tema5>
+      <tema6>estructuras basicas de python</tema6>
+   </Temas_de_python>
+</root>
+
+
+{
+  "formato": "json",
+  "Capitulo2": "Devnet",
+  "Temas_de_devnet": {
+    "tema1": "que es devnet",
+    "tema2": "ambiente de desarrollo en devnet",
+    "tema3": "herramientas de devnet"
+  }
+}
+
+
+
+{
+  "formato": "yaml",
+  "Capitulo3": "Desarrollo de software",
+  "Temas_de_desarrollo": {
+    "tema1": "que es desarollo de software",
+    "Desarollo_de_software": [
+      "waterfall",
+      "scrum"
+    ],
+    "tema2": "patrones de diseno",
+    "patrones_diseno": [
+      "controles de version",
+      "git"
+    ],
+    "tema3": "Trabajo sobre la plataforma github"
+  }
+}
+
+formato: yaml
+Capitulo3: Desarrollo de software
+Temas_de_desarrollo:
+  tema1: que es desarollo de software
+  Desarollo_de_software:
+  - waterfall
+  - scrum
+  tema2: patrones de diseno
+  patrones_diseno:
+  - controles de version
+  - git
+  tema3: Trabajo sobre la plataforma github
+
+
+  
