@@ -1,0 +1,16 @@
+
+modulo1 = {
+	"curso":"Devnet",
+	"Institucion":"Innovativa",
+	"Linux":[
+		{"Tema1":"permisos", "rol":["user","group","others"], "privilegios":["read", "write", "execute"]},
+		{"Tema2":"comandos", "file_mgmt":["cp","mv","touch", "mkdir"]}
+		],
+	"Python":[
+                {"Tema1":"variables", "tipo":["int","float","str"], "privilegios":["read", "write", "execute"]},
+                {"Tema2":"datos", "tipo":["list","tuple","dict"]},
+		{"Tema3":"estructuras", "tipo":["if-elif-else","for","while"]}
+                ]
+
+}
+
