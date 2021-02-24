@@ -1,0 +1,94 @@
+****************************************************
+******************  en XML
+
+<?xml version="1.0" encoding="UTF-8">
+<!-- comentario -->
+<persona>
+    <nombre>Mario</nombre>
+    <apellido>Flores</apellido>
+</persona>
+<CAPITULO 1 INTRODUCCION>
+    <1.1. Linux>
+        <introduccion>historia</introduccion>
+        <manejo de archivos>crear,eliminar,mover,modificar</manejo de archivos>
+        <permisos>ver,modificar,eliminar</permisos>
+        <procesos>listar,terminar,pasar a segundo plano</procesos>
+        <comandos>rm,touch,echo,mv,ls,chmod,ip add,free -h,df -h,
+			ps,kill,top,htop,jobs,apt,whoami,tail,useradd
+			user del,add user,sudo</comandos>
+    </1.1. Linux>
+    <1.2. Python>
+        <ventajas>facil de enseñar,facil de aprender,facil de obtener</ventajas>
+        <tipos de datos y variables>int,float,string,boolean</tipos de datos y variables>
+        <listas y diccionarios>listas,diccionarios</listas y diccionarios>
+        <función print>print</función print>
+        <función input>print</función input>
+        <condicionales>if,elif,else,for,while</condicionales>
+        <clases y metodos></clases y metodos>
+    </1.2. Python>
+    <1.3. Course Introduction Summary>
+        <resumen del capitulo>resumen</resumen del capitulo>
+    </1.3. Course Introduction Summary>
+    <dudas></dudas>
+</CAPITULO 1 INTRODUCCION>
+
+****************************************************
+******************  en JSON
+
+{
+"CAPITULO 2 THE DEVNET DEVELOPER ENVIRONMENT": {
+	"2.1.1DevNet Overview": "sitio web",
+	"2.1.2DevNet Overview": "acceso",
+	"2.1.3DevNet Overview": "vista general",
+	"2.2. DevNet recursos Online": {
+	"2.2.1DevNet recursos Online": "DevNet Learning Labs",
+	"2.2.2DevNet recursos Online": "DevNet Sandbox",
+	"2.2.3.1DevNet recursos Online": "DevNet Exchanges - code exchange",
+	"2.2.3.2DevNet recursos Online": "DevNet Exchanges - ecosistem exchange",
+	},
+	"DevNet Developer Support":"foro y soporte técnico",
+	"2.3.DevNet Developer Environment Summary": "resumen",
+	"dudas": "N/A",
+}
+}
+
+****************************************************
+******************  en YAML
+
+---
+CAPITULO 3: SOFTWARE DEVELOPMENT AND DESIGN:
+ 3.1.Software Development:
+  ciclo de vida de desarrollo del software o Software Development Life Cycle (SDLC)
+  metodologías de desarrollo
+	Waterfall
+	Agile (scrum,lean,xp,fdd)
+	 scrum:explicacion
+	 lean:explicacion
+ 3.2.Software Design Patterns:
+  categorias generales:Creational,Structural,Behavioral
+  patrones de diseño más usados
+   patron de observador
+   MVC
+ 3.3.Version Control Systems: 
+  beneficios:permite trabajo colaborativo, provisión y visibilidad,trabajo de forma aislada,seguro,sin limite de ubicación
+  tipos:local,central,distribuido 
+  git:extensón, aplicaciones
+   etapas: repositorio,working directory,staging area, 
+   estados: committed,modified,staged
+   consola comandos: git init, git add,git log, git diff,git rm,git reset,
+    git revert,git checkout,git reset,git pull,git pull,git commit,git branch,git merge,git clone,git fetch,
+   ramificacion (branch)
+   ejercicios
+ 3.4.Coding Basics,
+ 3.5.Code Review and Testing:
+  clean code:facil de leer y entender,ordenado,con comentarios
+  Metodos y funciones
+ 3.6. Data Formats:
+  parcing y serialización:conceptos
+  data formats:xml,json,yaml
+   xml:características
+	partes:prologo,body
+   json:características
+   yaml:características
+ ejercicios
+ dudas:pocos ejemplos yaml
